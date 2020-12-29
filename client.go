@@ -32,7 +32,7 @@ const (
 
 var (
 	authAdminRealms = makeURL("auth", "admin", "realms")
-	authRealms      = makeURL("auth", "realms")
+	authRealms      = makeURL("", "realms")
 	tokenEndpoint   = makeURL("protocol", "openid-connect", "token")
 	logoutEndpoint  = makeURL("protocol", "openid-connect", "logout")
 	openIDConnect   = makeURL("protocol", "openid-connect")
